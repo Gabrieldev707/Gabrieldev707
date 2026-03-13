@@ -57,8 +57,8 @@ Sou o Gabriel, desenvolvedor fullstack apaixonado por criar soluções que resol
 | Projeto | Descrição | Stack |
 |---------|-----------|-------|
 | **🏥 CuidarMais** | Plataforma social fullstack que conecta famílias a casas de apoio em Campina Grande. Autenticação JWT com roles (família, gestor, admin), mapa interativo com Leaflet, geocodificação automática, sistema de candidaturas e convites por email. | React · Vite · Tailwind · Node.js · Express · MongoDB Atlas |
-| **📦 Sistema de Estoque (Dluz)** | Sistema de controle de inventário para a loja Dluz. Cadastro de produtos, registro de entradas/saídas e relacionamento produto-fornecedor. | Node.js · Express · PostgreSQL · Sequelize · React |
-| **🏆 Rank De Sistemas De Vendas** | Site para organizar e exibir classificações e premiações de forma visual com cards responsivos e categorias. | React · CSS Responsivo |
+| **📦 Sistema de Estoque (Dluz)** | Sistema de controle de inventário para a loja Dluz. Cadastro de produtos, registro de entradas/saídas e relacionamento produto-fornecedor. | Node.js · Express · MongoDB · Docker · React |
+| **🏆 Rank De Sistemas De Vendas** | Site para organizar e exibir classificações e premiações de forma visual com cards responsivos e categorias. | React · CSS Responsivo · Node.js · MongoDB · Express|
 | **🏠 RefúgioApp** | Projeto social que conecta pessoas em situação de vulnerabilidade a casas de apoio, serviços de saúde mental e assistência. | React · Node.js · MongoDB |
 | **☁️ SaaS (em desenvolvimento)** | Software de gestão escalável com dashboard, gráficos interativos e API RESTful completa. Arquitetura separada em frontend e backend. | React · Node.js · Express |
 
