@@ -139,17 +139,6 @@ Main ideas:
 
 ---
 
-## GitHub activity
-
-<div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=Gabrieldev707&show_icons=true&theme=github_dark&hide_border=true" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gabrieldev707&layout=compact&theme=github_dark&hide_border=true" />
-
-</div>
-
----
-
 ## What I'm learning now
 
 - Building AI-powered systems with real execution flows
