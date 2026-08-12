@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=95&color=0:0D1117,50:1F6FEB,100:58A6FF&section=header" alt="header" />
+<img width="100%" src="./assets/starfield-header.svg" alt="Animated starfield" />
 
 # Gabriel Azevedo
 
@@ -16,7 +16,12 @@ I build products that go beyond the interface — systems with **context, contro
 
 <br/>
 
-<img width="100%" src="./assets/gabriel-ascii.svg" alt="Gabriel Azevedo animated ASCII signature" />
+![Full Stack](https://img.shields.io/badge/%23FullStack-111827?style=flat-square&logo=typescript&logoColor=58A6FF)
+![AI Systems](https://img.shields.io/badge/%23AISystems-111827?style=flat-square&logo=openai&logoColor=F0F6FC)
+![Local AI](https://img.shields.io/badge/%23LocalAI-111827?style=flat-square&logo=ollama&logoColor=white)
+![Automation](https://img.shields.io/badge/%23Automation-111827?style=flat-square&logo=githubactions&logoColor=79C0FF)
+![Agentic Systems](https://img.shields.io/badge/%23AgenticSystems-111827?style=flat-square&logo=probot&logoColor=A78BFA)
+![Guardrails](https://img.shields.io/badge/%23Guardrails-111827?style=flat-square&logo=shield&logoColor=7EE787)
 
 </div>
 
@@ -32,25 +37,11 @@ A system is only interesting to me if I can understand how it behaves when thing
 
 <div align="center">
 
-![Useful first](https://img.shields.io/badge/Useful_before_flashy-111827?style=flat-square&logo=checkmarx&logoColor=58A6FF)
-![AI with purpose](https://img.shields.io/badge/AI_where_it_earns_the_complexity-111827?style=flat-square&logo=openai&logoColor=F0F6FC)
-![Human control](https://img.shields.io/badge/Human_stays_in_control-111827?style=flat-square&logo=proton&logoColor=79C0FF)
+![Useful first](https://img.shields.io/badge/Useful_before_flashy-0D1117?style=for-the-badge&logo=checkmarx&logoColor=58A6FF)
+![Auditable](https://img.shields.io/badge/Auditable_systems-0D1117?style=for-the-badge&logo=datadog&logoColor=C9D1D9)
+![Human control](https://img.shields.io/badge/Human_stays_in_control-0D1117?style=for-the-badge&logo=proton&logoColor=79C0FF)
 
 </div>
-
----
-
-## Current focus
-
-```ts
-const currentFocus = {
-  product: "ProspectFlow",
-  research: "Sentinela",
-  localSystem: "ControlFawkes",
-  orchestration: "OrcTech",
-  visualExperiment: "Olimpo"
-};
-```
 
 ---
 
@@ -68,10 +59,12 @@ Find companies, detect digital gaps, score opportunities and move a lead from re
 
 The pipeline combines real company discovery, background enrichment, website analysis, an auditable **Opportunity Score**, CRM and proposal/PDF generation.
 
-**Stack:** TypeScript · React · Fastify · PostgreSQL · Prisma · Redis · BullMQ · Docker · Playwright
+**Stack**  
+`TypeScript` `React` `Fastify` `PostgreSQL` `Prisma` `Redis` `BullMQ` `Docker` `Playwright`
 
-![Active](https://img.shields.io/badge/Active-238636?style=flat-square)
-![Private](https://img.shields.io/badge/Private-111827?style=flat-square&logo=github&logoColor=white)
+![Active](https://img.shields.io/badge/ACTIVE-238636?style=flat-square)
+![Product](https://img.shields.io/badge/PRODUCT-1F6FEB?style=flat-square)
+![Private](https://img.shields.io/badge/PRIVATE-111827?style=flat-square&logo=github&logoColor=white)
 
 </td>
 <td width="50%" valign="top">
@@ -84,21 +77,18 @@ A local, reproducible environment for studying **jailbreaks, data leakage and gu
 
 It separates model output from post-guardrail delivery so experiments produce auditable evidence instead of vague “worked / failed” demonstrations.
 
-**Focus:** Local models · Guardrail evaluation · Reproducibility · Auditability · PT-BR
+**Tags**  
+`Local LLMs` `Guardrails` `Jailbreak Evaluation` `Reproducibility` `PT-BR` `Auditability`
 
-![Research](https://img.shields.io/badge/Research-1F6FEB?style=flat-square)
-![Active](https://img.shields.io/badge/Active-238636?style=flat-square)
-![Private](https://img.shields.io/badge/Private-111827?style=flat-square&logo=github&logoColor=white)
+![Active](https://img.shields.io/badge/ACTIVE-238636?style=flat-square)
+![Research](https://img.shields.io/badge/RESEARCH-8957E5?style=flat-square)
+![Private](https://img.shields.io/badge/PRIVATE-111827?style=flat-square&logo=github&logoColor=white)
 
 </td>
 </tr>
 
 <tr>
 <td width="50%" valign="top">
-
-<div align="center">
-<img width="230" src="./assets/fawkes-orb.svg" alt="Animated Fawkes Orb" />
-</div>
 
 ### [ControlFawkes](https://github.com/Gabrieldev707/ControlFawkes)
 
@@ -108,10 +98,12 @@ A mobile-first local controller connecting an iPhone to a computer with authenti
 
 Ollama is an **optional local fallback**, not a dependency for the product to work.
 
-**Stack:** React · FastAPI · WebSockets · Python · Local networking · Ollama optional
+**Stack**  
+`React` `FastAPI` `WebSockets` `Python` `Local Networking` `Ollama`
 
-![Public](https://img.shields.io/badge/Public-238636?style=flat-square&logo=github&logoColor=white)
-![Local first](https://img.shields.io/badge/Local--first-1F6FEB?style=flat-square)
+![Public](https://img.shields.io/badge/PUBLIC-238636?style=flat-square&logo=github&logoColor=white)
+![Local first](https://img.shields.io/badge/LOCAL--FIRST-1F6FEB?style=flat-square)
+![Deterministic](https://img.shields.io/badge/DETERMINISTIC-6E7681?style=flat-square)
 
 </td>
 <td width="50%" valign="top">
@@ -124,10 +116,12 @@ A private workspace for turning ideas into software through structured agent wor
 
 The point is orchestration rather than “one chatbot doing everything”: explicit phases, approval boundaries, execution ownership, cost control and fallback paths are first-class parts of the system.
 
-**Stack:** React · TypeScript · Node.js · Express · Supabase · PostgreSQL · Python · FastAPI
+**Stack**  
+`React` `TypeScript` `Node.js` `Supabase` `PostgreSQL` `Python` `FastAPI`
 
-![Agentic](https://img.shields.io/badge/Agentic-8957E5?style=flat-square)
-![Private](https://img.shields.io/badge/Private-111827?style=flat-square&logo=github&logoColor=white)
+![Agentic](https://img.shields.io/badge/AGENTIC-8957E5?style=flat-square)
+![Orchestration](https://img.shields.io/badge/ORCHESTRATION-1F6FEB?style=flat-square)
+![Private](https://img.shields.io/badge/PRIVATE-111827?style=flat-square&logo=github&logoColor=white)
 
 </td>
 </tr>
@@ -139,10 +133,11 @@ The point is orchestration rather than “one chatbot doing everything”: expli
 
 **Interactive Mythology Experience** — a visual web experiment built around Greek gods, ancient art direction and immersive interface work. It gives me a place to push frontend identity, motion and storytelling much further than a conventional product dashboard.
 
-**Stack:** React 19 · Vite · Tailwind CSS · Motion
+**Stack**  
+`React 19` `Vite` `Tailwind CSS` `Motion` `Art Direction` `Interactive UI`
 
-![Public](https://img.shields.io/badge/Public-238636?style=flat-square&logo=github&logoColor=white)
-![Visual](https://img.shields.io/badge/Visual_experiment-C69026?style=flat-square)
+![Public](https://img.shields.io/badge/PUBLIC-238636?style=flat-square&logo=github&logoColor=white)
+![Visual](https://img.shields.io/badge/VISUAL_EXPERIMENT-C69026?style=flat-square)
 
 </td>
 </tr>
@@ -160,14 +155,21 @@ The point is orchestration rather than “one chatbot doing everything”: expli
 
 <div align="center">
 
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Gabrieldev707&theme=github_dark" alt="GitHub stats" />
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Gabrieldev707&theme=github_dark" alt="Languages by repository" />
+![2026 commits](https://img.shields.io/badge/2026-500%2B_commits-238636?style=for-the-badge&logo=github&logoColor=white)
+![Building](https://img.shields.io/badge/Status-Building-1F6FEB?style=for-the-badge&logo=github&logoColor=white)
+
+<br/><br/>
+
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=Gabrieldev707&theme=github-dark-blue&hide_border=true" alt="GitHub streak" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gabrieldev707&layout=compact&theme=github_dark&hide_border=true" alt="Top languages" />
 
 <br/>
 
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Gabrieldev707&theme=github-compact&hide_border=true&area=true&custom_title=Contribution%20Activity" alt="Contribution activity graph" />
 
 </div>
+
+<sub>External GitHub widgets can undercount private work, so the contribution milestone above reflects my 2026 activity across public and private development.</sub>
 
 ---
 
@@ -198,7 +200,7 @@ The point is orchestration rather than “one chatbot doing everything”: expli
 
 <div align="center">
 
-![OpenAI](https://img.shields.io/badge/OpenAI-111827?style=for-the-badge&logo=openai&logoColor=white)
+<img height="40" src="./assets/openai-badge.svg" alt="OpenAI" />
 ![Claude](https://img.shields.io/badge/Claude-111827?style=for-the-badge&logo=anthropic&logoColor=D4A27F)
 ![Gemini](https://img.shields.io/badge/Gemini-111827?style=for-the-badge&logo=googlegemini&logoColor=8E75B2)
 ![Ollama](https://img.shields.io/badge/Ollama-111827?style=for-the-badge&logo=ollama&logoColor=white)
@@ -237,6 +239,8 @@ That can be a polished full-stack product, a local tool that removes friction, a
 
 **Build systems that solve real problems — and make them feel alive.**
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=90&color=0:58A6FF,50:1F6FEB,100:0D1117&section=footer" alt="footer" />
+<br/>
+
+<img width="100%" src="./assets/almofadas-night.svg" alt="Animated Almofadas under a starry night" />
 
 </div>
