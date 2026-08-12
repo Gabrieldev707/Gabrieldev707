@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="240" viewBox="0 0 360 240" role="img" aria-labelledby="title desc">
+  <title id="title">Fawkes Orb</title>
+  <desc id="desc">Animated particle orb inspired by the volumetric Fawkes entity.</desc>
+  <defs>
+    <radialGradient id="core" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="0.18" stop-color="#b9ddff" stop-opacity="0.95"/>
+      <stop offset="0.48" stop-color="#58a6ff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#2f81f7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="body" cx="50%" cy="48%" r="50%">
+      <stop offset="0" stop-color="#79c0ff" stop-opacity="0.28"/>
+      <stop offset="0.52" stop-color="#58a6ff" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#58a6ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="7"/></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="2.3"/></filter>
+  </defs>
+
+  <rect width="360" height="240" rx="20" fill="#0d1117"/>
+  <circle cx="180" cy="120" r="72" fill="url(#body)">
+    <animate attributeName="r" values="69;76;69" dur="4.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="4.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="180" cy="120" r="34" fill="url(#core)" filter="url(#blur)">
+    <animate attributeName="r" values="31;38;31" dur="2.9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="180" cy="120" r="19" fill="url(#core)">
+    <animate attributeName="r" values="17;22;17" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+
+  <g fill="none" stroke="#79c0ff" opacity="0.26">
+    <ellipse cx="180" cy="120" rx="88" ry="34" transform="rotate(-17 180 120)"/>
+    <ellipse cx="180" cy="120" rx="83" ry="28" transform="rotate(57 180 120)"/>
+    <ellipse cx="180" cy="120" rx="77" ry="25" transform="rotate(112 180 120)"/>
+  </g>
+
+  <g fill="#58a6ff" filter="url(#soft)">
+    <circle cx="112" cy="93" r="2.1"/><circle cx="130" cy="68" r="1.7"/><circle cx="151" cy="57" r="2.2"/>
+    <circle cx="188" cy="48" r="1.5"/><circle cx="218" cy="62" r="2"/><circle cx="245" cy="80" r="1.6"/>
+    <circle cx="262" cy="111" r="2.3"/><circle cx="251" cy="144" r="1.7"/><circle cx="226" cy="171" r="2.1"/>
+    <circle cx="190" cy="187" r="1.8"/><circle cx="153" cy="181" r="2.2"/><circle cx="122" cy="157" r="1.6"/>
+    <circle cx="101" cy="126" r="2.1"/><circle cx="137" cy="111" r="1.5"/><circle cx="158" cy="91" r="1.8"/>
+    <circle cx="204" cy="94" r="1.7"/><circle cx="221" cy="119" r="1.8"/><circle cx="205" cy="147" r="1.5"/>
+    <circle cx="166" cy="153" r="1.8"/><circle cx="143" cy="132" r="1.6"/>
+    <animate attributeName="opacity" values="0.35;1;0.45;0.9;0.35" dur="3.4s" repeatCount="indefinite"/>
+  </g>
+
+  <g fill="#f0f6fc">
+    <circle cx="118" cy="88" r="1.5"><animate attributeName="opacity" values="0;1;0" dur="2.7s" begin="0s" repeatCount="indefinite"/></circle>
+    <circle cx="238" cy="72" r="1.3"><animate attributeName="opacity" values="0;1;0" dur="3.1s" begin=".7s" repeatCount="indefinite"/></circle>
+    <circle cx="271" cy="132" r="1.6"><animate attributeName="opacity" values="0;1;0" dur="2.5s" begin="1.1s" repeatCount="indefinite"/></circle>
+    <circle cx="213" cy="184" r="1.4"><animate attributeName="opacity" values="0;1;0" dur="3.3s" begin=".2s" repeatCount="indefinite"/></circle>
+    <circle cx="108" cy="151" r="1.3"><animate attributeName="opacity" values="0;1;0" dur="2.8s" begin="1.4s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g transform="translate(180 120)">
+    <circle cx="0" cy="-82" r="2.4" fill="#b9ddff"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="7s" repeatCount="indefinite" additive="sum"/>
+  </g>
+
+  <text x="180" y="218" text-anchor="middle" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="2">FAWKES // LOCAL PRESENCE</text>
+</svg>
