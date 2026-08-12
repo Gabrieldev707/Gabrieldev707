@@ -1,164 +1,242 @@
 <div align="center">
 
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=95&color=0:0D1117,50:1F6FEB,100:58A6FF&section=header" alt="header" />
+
 # Gabriel Azevedo
 
 ### Full Stack Developer · AI Systems Builder · Information Systems Student
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2600&pause=800&color=58A6FF&center=true&vCenter=true&repeat=true&width=850&height=45&lines=I+build+software+that+acts%2C+remembers+and+solves+real+problems.;Full+Stack+%C2%B7+Local+AI+%C2%B7+Agentic+Systems+%C2%B7+Automation;Currently+building%3A+ProspectFlow+%C2%B7+Sentinela+%C2%B7+ControlFawkes" alt="Animated introduction" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=650&size=21&duration=2700&pause=750&color=58A6FF&center=true&vCenter=true&repeat=true&width=900&height=45&lines=I+build+software+that+acts%2C+remembers+and+solves+real+problems.;Full+Stack+%C2%B7+Local+AI+%C2%B7+Agentic+Systems+%C2%B7+Automation;Currently+building%3A+ProspectFlow+%C2%B7+Sentinela+%C2%B7+ControlFawkes" alt="Animated introduction" />
 
 I build products that go beyond the interface — systems with **context, control, memory and purpose**.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-azevedo-6a2568230/)
 [![GitHub](https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Gabrieldev707)
-![Brazil](https://img.shields.io/badge/Campina_Grande-Brazil-111827?style=for-the-badge&logo=googlemaps&logoColor=white)
+![Campina Grande](https://img.shields.io/badge/Campina_Grande-Brazil-111827?style=for-the-badge&logo=googlemaps&logoColor=white)
+
+<br/>
+
+<img width="100%" src="./assets/gabriel-ascii.svg" alt="Gabriel Azevedo animated ASCII signature" />
 
 </div>
 
 ---
 
-## `whoami`
+## About me
 
 I’m Gabriel Azevedo, an Information Systems student and full stack developer based in Campina Grande, Brazil.
 
-My work sits at the intersection of **software engineering, AI systems, automation, local-first software and product design**. I enjoy building things that are useful before they are flashy: reliable APIs, background pipelines, local tools, agentic workflows and interfaces with a clear identity.
+I work where **software engineering, AI systems, automation and product design** meet. I like building things that are useful before they are flashy: reliable APIs, background pipelines, local tools, agentic workflows and interfaces with a clear identity.
 
-I care about how a system behaves when things go wrong. That means traceability, security boundaries, deterministic fallbacks, cost awareness and keeping the user in control instead of hiding everything behind a model call.
+A system is only interesting to me if I can understand how it behaves when things go wrong. I care about **traceability, security boundaries, deterministic fallbacks, cost awareness and human control** — not hiding every decision behind a model call.
+
+<div align="center">
+
+![Useful first](https://img.shields.io/badge/Useful_before_flashy-111827?style=flat-square&logo=checkmarx&logoColor=58A6FF)
+![AI with purpose](https://img.shields.io/badge/AI_where_it_earns_the_complexity-111827?style=flat-square&logo=openai&logoColor=F0F6FC)
+![Human control](https://img.shields.io/badge/Human_stays_in_control-111827?style=flat-square&logo=proton&logoColor=79C0FF)
+
+</div>
+
+---
+
+## Current focus
 
 ```ts
-const now = {
-  building: ["ProspectFlow", "Sentinela", "ControlFawkes"],
-  interestedIn: ["agentic systems", "local AI", "automation", "guardrail evaluation"],
-  principle: "Use AI where it earns its complexity."
+const currentFocus = {
+  product: "ProspectFlow",
+  research: "Sentinela",
+  localSystem: "ControlFawkes",
+  orchestration: "OrcTech",
+  visualExperiment: "Olimpo"
 };
 ```
 
 ---
 
-## Currently building
+## Featured systems
 
-### ProspectFlow — Commercial Intelligence Platform
+<table>
+<tr>
+<td width="50%" valign="top">
 
-A full-stack platform for discovering companies, identifying digital gaps, scoring opportunities and moving a prospect from research to proposal in one workflow.
+### ProspectFlow
 
-The system combines real company discovery, background enrichment, website analysis, an auditable **Opportunity Score**, service recommendations, CRM, proposal generation and PDF export. Its core workflow is designed to remain useful without requiring an AI call for every decision.
+**Commercial Intelligence Platform**
 
-> React · TypeScript · Fastify · PostgreSQL · Prisma · Redis · BullMQ · Docker · Playwright
->
-> **Status:** Active / Private
+Find companies, detect digital gaps, score opportunities and move a lead from research to proposal in one workflow.
 
----
+The pipeline combines real company discovery, background enrichment, website analysis, an auditable **Opportunity Score**, CRM and proposal/PDF generation.
 
-### Sentinela — LLM Guardrail Research Lab
+**Stack:** TypeScript · React · Fastify · PostgreSQL · Prisma · Redis · BullMQ · Docker · Playwright
 
-A local and reproducible research environment for studying **jailbreaks, data leakage and guardrails**, with special attention to PT-BR evaluation.
+![Active](https://img.shields.io/badge/Active-238636?style=flat-square)
+![Private](https://img.shields.io/badge/Private-111827?style=flat-square&logo=github&logoColor=white)
 
-Sentinela separates model output from post-guardrail delivery so experiments can produce auditable evidence instead of vague “it worked / it failed” demos. The project is built around controlled experiments, harmless canaries, explicit denominators and reproducible local execution.
+</td>
+<td width="50%" valign="top">
 
-> Local models · Guardrail evaluation · Reproducible experiments · Auditability · PT-BR
->
-> **Status:** Active / Private
+### Sentinela
 
----
+**LLM Guardrail Research Lab**
 
-### [ControlFawkes](https://github.com/Gabrieldev707/ControlFawkes) — Local Computer Control
+A local, reproducible environment for studying **jailbreaks, data leakage and guardrails** with special attention to PT-BR evaluation.
 
-A mobile-first local controller that connects an iPhone to a computer over the local network.
+It separates model output from post-guardrail delivery so experiments produce auditable evidence instead of vague “worked / failed” demonstrations.
 
-It combines a React interface with a FastAPI backend, authenticated WebSocket protocol, touchpad, keyboard, media controls, platform launching and a deterministic command parser. Ollama is an **optional local fallback**, not a requirement for the product to work.
+**Focus:** Local models · Guardrail evaluation · Reproducibility · Auditability · PT-BR
 
-> React · FastAPI · WebSockets · Python · Local networking · Ollama optional · CI
->
-> **Status:** Active / Public
+![Research](https://img.shields.io/badge/Research-1F6FEB?style=flat-square)
+![Active](https://img.shields.io/badge/Active-238636?style=flat-square)
+![Private](https://img.shields.io/badge/Private-111827?style=flat-square&logo=github&logoColor=white)
 
----
+</td>
+</tr>
 
-### OrcTech — Agentic Creation Lab
+<tr>
+<td width="50%" valign="top">
+
+<div align="center">
+<img width="230" src="./assets/fawkes-orb.svg" alt="Animated Fawkes Orb" />
+</div>
+
+### [ControlFawkes](https://github.com/Gabrieldev707/ControlFawkes)
+
+**Local Computer Control**
+
+A mobile-first local controller connecting an iPhone to a computer with authenticated WebSockets, touchpad, keyboard, media controls, platform launching and deterministic commands.
+
+Ollama is an **optional local fallback**, not a dependency for the product to work.
+
+**Stack:** React · FastAPI · WebSockets · Python · Local networking · Ollama optional
+
+![Public](https://img.shields.io/badge/Public-238636?style=flat-square&logo=github&logoColor=white)
+![Local first](https://img.shields.io/badge/Local--first-1F6FEB?style=flat-square)
+
+</td>
+<td width="50%" valign="top">
+
+### OrcTech
+
+**Agentic Creation Lab**
 
 A private workspace for turning ideas into software through structured agent workflows, project memory, execution, QA and security gates.
 
-The focus is orchestration rather than “one chatbot doing everything”: explicit phases, approval boundaries, execution ownership, cost control and fallback paths are treated as product primitives.
+The point is orchestration rather than “one chatbot doing everything”: explicit phases, approval boundaries, execution ownership, cost control and fallback paths are first-class parts of the system.
 
-> React · TypeScript · Node.js · Express · Supabase · PostgreSQL · Python · FastAPI
->
-> **Status:** Private
+**Stack:** React · TypeScript · Node.js · Express · Supabase · PostgreSQL · Python · FastAPI
+
+![Agentic](https://img.shields.io/badge/Agentic-8957E5?style=flat-square)
+![Private](https://img.shields.io/badge/Private-111827?style=flat-square&logo=github&logoColor=white)
+
+</td>
+</tr>
+
+<tr>
+<td colspan="2" valign="top">
+
+### [Olimpo](https://github.com/Gabrieldev707/Olimpo)
+
+**Interactive Mythology Experience** — a visual web experiment built around Greek gods, ancient art direction and immersive interface work. It gives me a place to push frontend identity, motion and storytelling much further than a conventional product dashboard.
+
+**Stack:** React 19 · Vite · Tailwind CSS · Motion
+
+![Public](https://img.shields.io/badge/Public-238636?style=flat-square&logo=github&logoColor=white)
+![Visual](https://img.shields.io/badge/Visual_experiment-C69026?style=flat-square)
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+**More public work:** [AddressManager](https://github.com/Gabrieldev707/AddressManager) · [CuidarMais](https://github.com/Gabrieldev707/CuidarMais) · [EcoScan](https://github.com/Gabrieldev707/EcoScan) · [DireitoVivo](https://github.com/Gabrieldev707/DireitoVivo)
+
+</div>
 
 ---
 
-## Featured projects
+## GitHub activity
 
-| Project | What it explores | Stack | Status |
-|---|---|---|---|
-| **ProspectFlow** | Commercial intelligence, async processing, auditable scoring and proposals | React · TypeScript · Fastify · PostgreSQL · Prisma · Redis | Private |
-| **Sentinela** | Jailbreak/guardrail evaluation with reproducible local experiments | Python · Local LLMs · Guardrail tooling | Private |
-| **[ControlFawkes](https://github.com/Gabrieldev707/ControlFawkes)** | Secure local iPhone → computer control | React · FastAPI · WebSockets · Ollama | Public |
-| **OrcTech** | Multi-agent orchestration, execution and project memory | React · TypeScript · Node.js · Supabase · FastAPI | Private |
-| **[Olimpo](https://github.com/Gabrieldev707/Olimpo)** | Interactive visual experience inspired by Greek mythology | React 19 · Vite · Tailwind CSS · Motion | Public |
-| **[AddressManager](https://github.com/Gabrieldev707/AddressManager)** | Address management challenge with auth, ViaCEP and CSV export | ASP.NET Core MVC · EF Core · SQL Server | Public |
-| **[CuidarMais](https://github.com/Gabrieldev707/CuidarMais)** | Platform connecting families and care homes | React · Vite · Node.js · MongoDB Atlas | Public |
+<div align="center">
+
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Gabrieldev707&theme=github_dark" alt="GitHub stats" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Gabrieldev707&theme=github_dark" alt="Languages by repository" />
+
+<br/>
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Gabrieldev707&theme=github-compact&hide_border=true&area=true&custom_title=Contribution%20Activity" alt="Contribution activity graph" />
+
+</div>
 
 ---
 
 ## Tech stack
 
-### Core
+### Core engineering
 
-![TypeScript](https://img.shields.io/badge/TypeScript-111827?style=for-the-badge&logo=typescript&logoColor=3178C6)
-![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![React](https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-111827?style=for-the-badge&logo=nodedotjs&logoColor=339933)
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=ts,js,react,nodejs,python,fastapi,postgres,redis,mongodb,prisma,docker,git,github,vscode&theme=dark" alt="Core technology stack" />
+
+</div>
+
+### Backend, data & execution
+
+<div align="center">
+
 ![Fastify](https://img.shields.io/badge/Fastify-111827?style=for-the-badge&logo=fastify&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-111827?style=for-the-badge&logo=express&logoColor=white)
-![Python](https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=3776AB)
-![FastAPI](https://img.shields.io/badge/FastAPI-111827?style=for-the-badge&logo=fastapi&logoColor=009688)
-
-### Data & Infrastructure
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111827?style=for-the-badge&logo=postgresql&logoColor=4169E1)
-![Prisma](https://img.shields.io/badge/Prisma-111827?style=for-the-badge&logo=prisma&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-111827?style=for-the-badge&logo=redis&logoColor=DC382D)
-![MongoDB](https://img.shields.io/badge/MongoDB-111827?style=for-the-badge&logo=mongodb&logoColor=47A248)
 ![Supabase](https://img.shields.io/badge/Supabase-111827?style=for-the-badge&logo=supabase&logoColor=3ECF8E)
-![Docker](https://img.shields.io/badge/Docker-111827?style=for-the-badge&logo=docker&logoColor=2496ED)
+<img height="28" src="./assets/bullmq.svg" alt="BullMQ" />
+![Playwright](https://img.shields.io/badge/Playwright-111827?style=for-the-badge&logo=playwright&logoColor=45BA4B)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-111827?style=for-the-badge&logo=githubactions&logoColor=2088FF)
 
-### AI, Automation & Systems
+</div>
+
+### AI & local systems
+
+<div align="center">
 
 ![OpenAI](https://img.shields.io/badge/OpenAI-111827?style=for-the-badge&logo=openai&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude-111827?style=for-the-badge&logo=anthropic&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude-111827?style=for-the-badge&logo=anthropic&logoColor=D4A27F)
 ![Gemini](https://img.shields.io/badge/Gemini-111827?style=for-the-badge&logo=googlegemini&logoColor=8E75B2)
 ![Ollama](https://img.shields.io/badge/Ollama-111827?style=for-the-badge&logo=ollama&logoColor=white)
 ![WebSockets](https://img.shields.io/badge/WebSockets-111827?style=for-the-badge&logo=socketdotio&logoColor=white)
-![BullMQ](https://img.shields.io/badge/BullMQ-111827?style=for-the-badge&logoColor=white)
-![Agentic Systems](https://img.shields.io/badge/Agentic_Systems-111827?style=for-the-badge&logoColor=white)
+![Local AI](https://img.shields.io/badge/Local_AI-111827?style=for-the-badge&logo=probot&logoColor=58A6FF)
 
-### Frontend, Deploy & Tools
+</div>
 
-![Vite](https://img.shields.io/badge/Vite-111827?style=for-the-badge&logo=vite&logoColor=646CFF)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-111827?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4)
-![HTML5](https://img.shields.io/badge/HTML5-111827?style=for-the-badge&logo=html5&logoColor=E34F26)
-![CSS3](https://img.shields.io/badge/CSS3-111827?style=for-the-badge&logo=css&logoColor=663399)
-![Git](https://img.shields.io/badge/Git-111827?style=for-the-badge&logo=git&logoColor=F05032)
-![GitHub](https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-111827?style=for-the-badge&logo=vercel&logoColor=white)
+### Frontend, deploy & tools
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=vite,tailwind,html,css,vercel,vscode&theme=dark" alt="Frontend and tools" />
+
+<br/>
+
 ![Railway](https://img.shields.io/badge/Railway-111827?style=for-the-badge&logo=railway&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-111827?style=for-the-badge&logo=visualstudiocode&logoColor=007ACC)
+
+</div>
 
 ---
 
 ## What drives me
 
-I like software that has a reason to exist.
+I like systems that have a **clear reason to exist**.
 
-That can mean a polished full-stack product, a local tool that removes a repetitive task, an AI workflow with explicit boundaries, or an experiment that turns an unclear behavior into measurable evidence. The stack changes; the goal is the same: **build something useful, understandable and intentional.**
+That can be a polished full-stack product, a local tool that removes friction, an AI workflow with explicit boundaries, or an experiment that turns unclear behavior into measurable evidence. The stack changes; the principle does not.
 
-I’m especially interested in systems where engineering and AI meet without sacrificing reliability — local models, orchestration, memory, asynchronous execution, guardrails, security and human control.
-
----
+> **AI is not the product by default.**  
+> It belongs where it earns the complexity — while the system stays understandable, testable and under human control.
 
 <div align="center">
 
-### `build → test → understand → improve`
+### `build → test → understand → improve → ship`
 
 **Build systems that solve real problems — and make them feel alive.**
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=90&color=0:58A6FF,50:1F6FEB,100:0D1117&section=footer" alt="footer" />
 
 </div>
