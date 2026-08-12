@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="170" height="40" viewBox="0 0 170 40" role="img" aria-label="OpenAI">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#161b22"/></linearGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#aebdce"/></linearGradient>
+    <filter id="g" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect x=".5" y=".5" width="169" height="39" rx="9" fill="url(#bg)" stroke="#30363d"/>
+  <g transform="translate(22 20)" fill="none" stroke="url(#silver)" stroke-width="2.3" stroke-linecap="round" filter="url(#g)">
+    <path d="M0-10 C6-10 10-6 10 0 C10 6 6 10 0 10 C-6 10-10 6-10 0 C-10-6-6-10 0-10Z" opacity=".2"/>
+    <path d="M0-10 C4-7 6-3 4 1 C2 5-2 6-6 4 C-10 2-11-2-9-6"/>
+    <path d="M8-5 C8 0 6 4 2 6 C-2 8-6 6-8 2 C-10-2-8-6-4-8"/>
+    <path d="M8 5 C4 8 0 9-4 7 C-8 5-9 1-7-3 C-5-7-1-9 3-8"/>
+  </g>
+  <text x="45" y="26" fill="#f0f6fc" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">OpenAI</text>
+</svg>
