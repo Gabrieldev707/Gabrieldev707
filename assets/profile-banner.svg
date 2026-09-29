@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Gabriel Azevedo — Software Engineer</title>
+  <desc id="desc">Dark geometric banner with electric-blue and violet wing-shaped accents.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050812"/>
+      <stop offset="0.58" stop-color="#091426"/>
+      <stop offset="1" stop-color="#120A26"/>
+    </linearGradient>
+    <linearGradient id="wing" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#58A6FF"/>
+      <stop offset="0.55" stop-color="#2F81F7"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2F81F7" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#2F81F7" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M38 0H0V38" fill="none" stroke="#8AB4FF" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="24" fill="url(#grid)"/>
+  <path d="M0 262L316 34L238 250L0 304Z" fill="#0B1F3A" opacity="0.72"/>
+  <path d="M1200 30L900 286L982 72L1200 0Z" fill="#271044" opacity="0.52"/>
+  <path d="M824 170L914 56L980 122L1046 56L1136 170L1032 122L980 190L928 122Z" fill="url(#wing)" opacity="0.2" filter="url(#glow)"/>
+  <path d="M850 168L918 82L980 140L1042 82L1110 168L1030 132L980 184L930 132Z" fill="none" stroke="url(#wing)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M76 242H1125" stroke="url(#line)" stroke-width="2"/>
+
+  <text x="76" y="132" fill="#E6EDF7" font-family="Segoe UI, Arial, sans-serif" font-size="56" font-weight="700" letter-spacing="2">GABRIEL AZEVEDO</text>
+  <text x="80" y="184" fill="#8AB4FF" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600" letter-spacing="3">SOFTWARE ENGINEER  /  FULL STACK  /  APPLIED AI</text>
+  <text x="80" y="278" fill="#9AA8BC" font-family="Segoe UI, Arial, sans-serif" font-size="16" letter-spacing="1.5">PRODUCT ENGINEERING · LOCAL-FIRST SYSTEMS · CONTROLLED AUTOMATION</text>
+  <circle cx="1124" cy="273" r="5" fill="#7C3AED"/>
+  <circle cx="1144" cy="273" r="5" fill="#2F81F7"/>
+</svg>
